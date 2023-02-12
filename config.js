@@ -1,7 +1,7 @@
 module.exports = {
     Client: {
         TOKEN: "",
-        APIkey: "
+        APIkey: ""
     },
 
     Users: {
