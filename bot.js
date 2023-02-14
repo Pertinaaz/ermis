@@ -1,8 +1,7 @@
 const { ask } = require('./ai.js');
-const { Client, Partials, Collection, GatewayIntentBits } = require('discord.js');
+const { Client, Partials, Collection, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const colors = require('colors');
 const config = require('./config.js');
-const { EmbedBuilder } = require('@discordjs/builders');
 
 const AuthToken = config.Client.TOKEN
 const blacklist = config.Users.BLACKLIST
